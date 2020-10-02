@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+<!-- INSERT HERE YOUR WIFI NETWORK NAME. FOLLOW MY EXAMPLE -->
+	<name>NETWORK_NAME</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>5043452D4D46475F465432</hex>
+			<!-- INSERT HERE YOUR WIFI NETWORK NAME. FOLLOW MY EXAMPLE -->
+			<name>NETWORK_NAME</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>auto</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey>
+				<keyType>passPhrase</keyType>
+				<protected>false</protected>
+				<!-- INSERT HERE YOUR WIFI NETWORK PASSWORD. FOLLOW MY EXAMPLE -->
+				<keyMaterial>123$NETWORK$</keyMaterial>
+			</sharedKey>
+		</security>
+	</MSM>
+	<MacRandomization xmlns="http://www.microsoft.com/networking/WLAN/profile/v3">
+		<enableRandomization>false</enableRandomization>
+		<randomizationSeed>1211943061</randomizationSeed>
+	</MacRandomization>
+</WLANProfile>

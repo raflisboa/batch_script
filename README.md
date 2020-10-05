@@ -1,6 +1,6 @@
 # Batch Script
 
-This repository is used for my public batchfile scripts samples.
+This repository was made for my public batchfile scripts.
 Feel free to fork, clone or wharever you want!
 
 * [Blog](https://raflisboa.github.io/site/)
